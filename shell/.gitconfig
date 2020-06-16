@@ -1,0 +1,35 @@
+[user]
+	name = zhao.junwei
+	email = zhao.junwei@yottabyte.cn
+[color]
+    ui = true
+    diff = auto
+    branch = auto
+    status = auto
+    interactive = auto
+[core]
+	editor = vim
+    # pager = diff-so-fancy | less --tabs=4 -RFXi
+[alias]
+[alias]
+    logol = log --oneline
+    logolg = log --oneline --graph
+    loga = log --graph --oneline --decorate=short --branches='*'
+	dsh = diff --stat head
+	plog = log --graph --pretty='%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --branches
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = 216
+	frag = magenta bold
+	commit = 105 bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
+[diff-so-fancy]
+	stripLeadingSymbols = true
+[credential]
+	helper = cache

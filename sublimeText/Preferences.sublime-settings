@@ -1,0 +1,27 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Babel/Monokai Phoenix.tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"flatland_sidebar_tree_small": true,
+	"flatland_square_tabs": true,
+	"font_face": "FiraCode-Retina",
+	"font_options":
+	[
+		"subpixel_antialias"
+	],
+	"font_size": 14,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+	],
+	"rulers":
+	[
+		100
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_size": 4,
+	"theme": "Spacegray Eighties.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "keys": ["ctrl+alt+t"],
+        "command": "terminus_open",
+        "args": {
+            "config_name": "Default",
+            "pre_window_hooks": [
+                ["set_layout", {
+                    "cols": [0.0, 0.65, 1.0],
+                    "rows": [0.0, 1.0],
+                    "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+                }],
+                ["focus_group", {"group": 1}]
+            ]
+        }
+    }
+]

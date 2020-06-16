@@ -1,0 +1,27 @@
+// SublimeLinter Settings - User
+{
+    "linters":
+    {
+        "flake8": {
+            "python": 2.7,
+            "disable": false,
+            "args": [
+                "--exclude=__pycache__,.pyc",
+                "--select=E,F,W,C90",
+                "--ignore=E501"
+            ],
+        },
+        "eslint": {
+          "env": {"PATH": "/Users/blairzhao111/.nvm/versions/node/v13.1.0/bin/"}
+        },
+        "stylelint": {
+          "env": {"PATH": "/Users/blairzhao111/.nvm/versions/node/v13.1.0/bin/"}
+        }
+    },
+
+    "paths": {
+        "linux": [],
+        "osx": ["/Users/blairzhao111/.nvm/versions/node/v13.1.0/bin/"],
+        "windows": []
+    }
+}
